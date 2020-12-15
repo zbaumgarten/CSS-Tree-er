@@ -18,3 +18,12 @@
   flex-direction: column;
 
 }
+
+nav {
+  display: none;
+}
+
+
+/* img {
+  width: 100px;
+} */
