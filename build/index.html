@@ -1,69 +1,102 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
-  <meta charset="utf-8">
-  <title>Tree-er</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script> -->
-  <link rel="stylesheet" href="main.css">
-</head>
-<body>
-  <nav class="">
-    <div class="">
-      <a class="" href="#" >Tree-er</a>
-      <button class="" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class=""></span>
-      </button>
-      <div class="" id="navbarSupportedContent">
-        <ul class="">
-          <li class="">
-            <a class="" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="">
-            <a class="" href="#">Featured</a>
-          </li>
-          <li class="">
-            <a class="" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Learn More
-            </a>
-            <ul class="" aria-labelledby="navbarDropdown">
-              <li><a class="" href="#">About</a></li>
-              <li><a class="" href="#">Contact</a></li>
-              <li><hr class=""></li>
-              <li><a class="" href="#">Surprise me!</a></li>
-            </ul>
-          </li>
-        </ul>
-        <form class="">
-          <input class="" type="search" placeholder="Search" aria-label="Search">
-          <button class="" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </nav>
-  <div class="container-fluid" id="hero">
-    <img src="../assets/geran-de-klerk-qzgN45hseN0-unsplash.jpg" class="img-fluid" alt="forest view">
-    <h2>Give the gift of more trees</h2>
-    <span>Photo by <a href="https://unsplash.com/@gerandeklerk?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Geran de Klerk</a> on
-      <br/>
-      <a href="https://unsplash.com/s/photos/forrest?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
-    </div>
-    <div class="container">
-      <h3 class="display-4">On sale now</h3>
+  <head>
+    <meta charset="utf-8">
+    <title>Tree-er</title>
+    <!-- ************************** -->
+    <!-- add link to bootstrap here -->
+    <!-- ************************** -->
 
-      <div class="row">
-        <div class="card col" style="width: 18rem;">
-          <img src="../assets/rob-mulally-oacHEtIlXsA-unsplash.jpg" class="card-img-top" alt="oak">
-          <div class="card-body">
-            <h5 class="card-title">Oak</h5>
-            <p class="card-text">A Fine Classic!</p>
+
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+
+    <!-- ************************** -->
+    <!-- Bonus! Use documentation to style the nav -->
+    <!-- ************************** -->
+
+    <nav class="">
+      <div class="">
+        <a class="" href="#" >Tree-er</a>
+        <button class="" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="" id="navbarSupportedContent">
+          <ul class="">
+            <li class="">
+              <a class="" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="">
+              <a class="" href="#">Featured</a>
+            </li>
+            <li class="">
+              <a class="" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Learn More
+              </a>
+              <ul class="" aria-labelledby="navbarDropdown">
+                <li><a class="" href="#">About</a></li>
+                <li><a class="" href="#">Contact</a></li>
+                <li><hr class=""></li>
+                <li><a class="" href="#">Surprise me!</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="">
+            <input class="" type="search" placeholder="Search" aria-label="Search">
+            <button class="" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ************************** -->
+    <!-- Set class container-fluid on div for hero/jumbo image -->
+    <!-- ************************** -->
+
+    <div class="" id="hero">
+      <img src="./assets/geran-de-klerk-qzgN45hseN0-unsplash.jpg" class="" alt="forest view">
+      <h2>Give the gift of more trees</h2>
+      <span>Photo by <a href="https://unsplash.com/@gerandeklerk?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Geran de Klerk</a> on
+        <br/>
+        <a href="https://unsplash.com/s/photos/forrest?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+    </div>
+
+      <!-- ************************** -->
+      <!-- Set class container on div for On Sale Now Section -->
+      <!-- ************************** -->
+
+    <div>
+      <!-- ************************** -->
+      <!-- Set class display-4 on h3-->
+      <!-- ************************** -->
+      <h3 class="">On Sale Now</h3>
+
+      <!-- ************************** -->
+      <!-- Begin row of cards -->
+      <!-- ************************** -->
+      <div class="">
+
+        <!-- ************************** -->
+        <!-- First card -->
+        <!-- ************************** -->
+
+        <div class="" style="width: 18rem;">
+          <img src="./assets/rob-mulally-oacHEtIlXsA-unsplash.jpg" class="card-img-top" alt="oak">
+          <div class="">
+            <h5 class="">Oak</h5>
+            <p class="">A Fine Classic!</p>
             <p>
               <span>Photo by <a href="https://unsplash.com/@robmulally?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Rob Mulally</a> on <a href="https://unsplash.com/s/photos/oak?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
             </p>
             <br/>
-            <a href="#" class="btn btn-primary">Gift it</a>
+            <a href="#" class="">Gift it</a>
           </div>
         </div>
+
+        <!-- ************************** -->
+        <!-- Second card -->
+        <!-- ************************** -->
 
         <div class="card col" style="width: 18rem;">
           <img src="../assets/fernando-de-la-cruz-GEqfe3zYILk-unsplash.jpg" class="card-img-top" alt="maple">
@@ -77,6 +110,10 @@
             <a href="#" class="btn btn-primary">Gift it</a>
           </div>
         </div>
+
+        <!-- ************************** -->
+        <!-- Third card -->
+        <!-- ************************** -->
 
         <div class="card col" style="width: 18rem;">
           <img src="../assets/alex-B0Kj_2ZG2O8-unsplash.jpg" class="card-img-top" alt="willow">
@@ -93,8 +130,13 @@
 
       </div>
 
-      <h3 class="display-4">Best Sellers</h3>
-      <table class="table table-striped text-center table-hover">
+      <!-- ************************** -->
+      <!-- Best Sellers table -->
+      <!-- ************************** -->
+
+      <h3 class="">Best Sellers</h3>
+
+      <table class="">
         <thead>
           <tr>
             <th scope="col">#</th>
@@ -105,69 +147,94 @@
         </thead>
         <tbody>
           <tr>
-            <th scope="">1</th>
+            <th scope="row">1</th>
             <td>Oak</td>
             <td>3-9</td>
             <td>$100</td>
           </tr>
           <tr>
-            <th scope="">2</th>
+            <th scope="row">2</th>
             <td>Maple</td>
             <td>5-9</td>
             <td>$100</td>
           </tr>
           <tr>
-            <th scope="">3</th>
+            <th scope="row">3</th>
             <td>Willow</td>
             <td>3-10</td>
             <td>$100</td>
           </tr>
           <tr>
-            <th scope="">3</th>
+            <th scope="row">3</th>
             <td>Birch</td>
             <td>2-7</td>
             <td>$100</td>
           </tr>
           <tr>
-            <th scope="">3</th>
+            <th scope="row">3</th>
             <td>Beech</td>
             <td>4-7</td>
             <td>$100</td>
           </tr>
         </tbody>
       </table>
+
+      <!-- ************************** -->
+      <!-- Newsletter Form -->
+      <!-- ************************** -->
+
       <div class="container">
         <h4>Sign up for our newsletter</h4>
         <form>
-          <div class="mb-3">
-            <div class="mb-3">
-              <label for="name" class="">Name</label>
+
+          <!-- ************************** -->
+          <!-- Text inputs -->
+          <!-- ************************** -->
+
+          <div class="">
+            <div class="">
+              <label for="name" class="form-label">Name</label>
               <input type="text" class="form-control" id="name">
             </div>
-            <label for="exampleInputEmail1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="">No trees will be harmed in delivering our newsletters</div>
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email">
+            <div class="form-text">No trees will be harmed in delivering our newsletters</div>
           </div>
 
-          <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-label" for="exampleCheck1">Send me coupons</label>
+          <!-- ************************** -->
+          <!-- Checkbox 1 -->
+          <!-- ************************** -->
+
+          <div class="">
+            <input type="checkbox" class="" id="couponsCheck">
+            <label class="form-check-label" for="couponsCheck">Send me coupons</label>
           </div>
+
+          <!-- ************************** -->
+          <!-- Select/Options/dropdown menu -->
+          <!-- ************************** -->
+
           <p>Select frequency of newsletters</p>
-          <select class="form-select" aria-label="Default weekly">
+          <select class="" aria-label="Default weekly">
             <option selected>Weekly</option>
             <option value="1">Daily</option>
             <option value="2">Hourly</option>
             <option value="3">Monthly</option>
             <option value="3">Annually</option>
           </select>
-          <div class="form-check form-switch">
-            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" checked>
-            <label class="form-label" for="flexSwitchCheckDefault">Send my info to affiliates</label>
+
+          <!-- ************************** -->
+          <!-- Checkbox 2 (make into a switch w. Bootstrap) -->
+          <!-- ************************** -->
+
+          <div class="">
+            <input class="" type="checkbox" id="sendInfo" checked>
+            <label class="" for="sendInfo" >Send my info to affiliates</label>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" class="">Submit</button>
         </form>
-      </div>
-    </div>
-  </body>
+      </div> <!-- closes form div with class of container -->
+
+    </div> <!-- closes first div with class of container -->
+    </body>
   </html>
