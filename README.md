@@ -21,7 +21,7 @@ While a base understanding of CSS is critical in building websites, in order to 
 
 ## Get coding: Get the starter code
 
-Today we'll be building Tree-er. The html is complete all we have to do is add the bootstrap code library and apply the appropriate classes.
+We'll be building Tree-er. The html is complete all we have to do is add the bootstrap code library and apply the appropriate classes.
 
 ![tree-er compelte](./assets/tree-er-complete.html.png)
 ..
@@ -37,7 +37,7 @@ Starting appearance
 Our HTML is quite long and busy. When we work on sections we can visually fold up our code with our text editor.
 
 ![](./assets/code-folding.gif)
-This will make it easier to stay focused on the component we need to style
+This will make it easier to stay focused on the component we need to style.
 
 
 ## Getting started
@@ -52,6 +52,9 @@ Looks like this:
 
 Paste it inside the `head` tag of the `index.html`
 
+**Note**: when loading more than one css file, it is treated as one long file. Therefore the file that comes last 'wins' if there are the same selectors altering a particular style. Therefore, Bootstrap should come first, then your personal styles should come later. So, make sure your Bootstrap link is above the link for `main.css`
+
+Further, there are more ways to customize bootstrap, but we won't cover it today.
 
 ![](./assets/tree-er-start-bootstrap-link.png)
 
@@ -83,7 +86,7 @@ Let's add a class to the `h3` to style it more as a display. Generally, text on 
 If we go back to our starter image we have a row of 3 cards. Let's set up the div that contains these cards as a row.
 
 ```html
-<div class="row align-items-stretch">
+<div class="row">
 ```
 
 We then have three cards that we need to add the same styles
@@ -163,17 +166,21 @@ This should update our form to look like this:
 
 ### Form Checkbox
 
-Add the classes `mb-3 form-check` to style the div that containst he input with type checkbox.
-For the input with the type `checkbox` add a class `form-label`
+Add the classes `mb-3 form-check` to style the div that contains the input with type checkbox.
+
+For the input with the type `checkbox` add a class `form-check-ionput`
+
+For the label add the class `form-label`
 
 ### Form Select/Options
-
-and the `form-label` class to the label beneath it.
 
 In the `select` element, add the class `form-select`
 
 
+### Checkbox 2 - Style as a Switch
+
 Add the classes `form-check form-switch` to the div that contains an input with type `checkbox`
+
 
 For the final input with type `checkbox` add the classes `form-check-input`
 
@@ -182,4 +189,4 @@ Finally, let's style the submit button by adding the classes `btn btn-primary`
 
 ## Bonus
 
-You'll see in the `main.css` file that the `nav` `display` is set to `none`. Remove that code and go back to the mockup image. Use the Bootstrap documentation to get it styled like the mockup. 
+You'll see in the `main.css` file that the `nav` `display` is set to `none`. Remove that code and go back to the mockup image. Use the Bootstrap documentation to get it styled like the mockup.
